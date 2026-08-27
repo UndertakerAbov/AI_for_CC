@@ -25,7 +25,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 
 
-TELEGRAM_BOT_TOKEN = "8600151429:AAE77pNWD4In5d-HAmc0FXoAjPjNgTb6zoU"  
+TELEGRAM_BOT_TOKEN = "TG_BOT_TOKEN"  
 OPENAI_API_KEY = "SOME_OPENAI_API_KEY"
 
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
