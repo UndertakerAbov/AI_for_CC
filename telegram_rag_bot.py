@@ -159,8 +159,6 @@ async def handle_user_query(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await status_msg.edit_text("❌ Ошибка при обращении к нейросети или базе данных.")
 
 
-# ----------------- ЗАПУСК -----------------
-
 def main():
     # Первичное сканирование папки с документами при старте
     if os.path.exists(DOCUMENTS_DATABASE_DIR):
